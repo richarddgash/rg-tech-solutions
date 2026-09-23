@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>The Journey — RG Tech Solutions</title>
+<meta name="description" content="The five-stage path every RG Tech Solutions engagement follows — Triage, Resolve, Knowledge, Automate, Improve — backed by the 2026 Freshworks Customer Service Benchmark Report." />
+<link rel="icon" href="assets/logo-icon.png" type="image/png" />
+<link rel="stylesheet" href="css/style.css" />
+<style>
+/* Additive styles for the journey page only — built on the site's existing tokens */
+.pilot-bar {
+display: flex;
+height: 30px;
+border-radius: 8px;
+overflow: hidden;
+box-shadow: inset 0 0 0 1px var(--color-border);
+}
+.pilot-bar span { display: block; height: 100%; }
+.pilot-legend {
+display: flex;
+flex-wrap: wrap;
+gap: 18px;
+margin-top: 12px;
+font-size: 0.85rem;
+color: var(--color-text-muted);
+}
+.pilot-legend .dot {
+width: 9px; height: 9px; border-radius: 3px;
+display: inline-block; margin-right: 6px;
+}
+.source-note {
+font-size: 0.76rem;
+color: var(--color-text-muted);
+opacity: 0.85;
+margin-top: 12px;
+}
+.stage-list {
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.stage-row {
+background: var(--color-surface);
+border: 1px solid var(--color-border);
+border-radius: var(--radius);
+box-shadow: var(--shadow-sm);
+padding: 28px;
+display: grid;
+grid-template-columns: 56px 1.5fr 1fr;
+gap: 24px;
+align-items: start;
+}
+.stage-marker { position: relative; }
+.stage-marker .step-num {
+position: absolute;
+top: -8px;
+right: -8px;
+width: 22px;
+height: 22px;
+font-size: 0.72rem;
+background: var(--color-surface);
+color: var(--color-navy);
+border: 1.5px solid var(--color-border);
+box-shadow: none;
+margin: 0;
+}
+.stage-name {
+margin: 0 0 6px;
+font-size: 1.15rem;
+color: var(--color-navy);
+}
+.stage-shift {
+display: flex;
+align-items: center;
+gap: 8px;
+flex-wrap: wrap;
+font-size: 0.85rem;
+font-weight: 600;
+margin: 0 0 12px;
+}
+.stage-shift .before { color: #ef4444; }
+.stage-shift .after { color: var(--color-teal-dim); }
+.stage-shift .arrow { color: var(--color-text-muted); }
+.stage-narrative {
+margin: 0;
+color: var(--color-text-muted);
+font-size: 0.95rem;
+}
+.stat-box {
+background: var(--color-surface-alt);
+border: 1px solid var(--color-border);
+border-radius: 12px;
+padding: 18px 20px;
+}
+.stat-box .num {
+font-weight: 800;
+font-size: 1.8rem;
+color: var(--color-navy);
+line-height: 1.1;
+margin-bottom: 6px;
+}
+.stat-box .label {
+font-size: 0.82rem;
+color: var(--color-text-muted);
+line-height: 1.45;
+}
+.stat-box .src {
+font-size: 0.72rem;
+color: var(--color-text-muted);
+opacity: 0.8;
+margin-top: 10px;
+}
+@media (max-width: 720px) {
+.stage-row { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+<nav class="nav container">
+<a href="index.html" class="nav-brand">
+<img src="assets/logo-icon.png" alt="RG Tech Solutions" class="mark" />
+RG Tech Solutions
+</a>
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="journey.html" aria-current="page">Journey</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="contact.html" class="nav-cta">Get a Quote</a></li>
+</ul>
+<button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+<span></span><span></span><span></span>
+</button>
+</nav>
+</header>
+
+<main>
+<section class="page-hero">
+<div class="container">
+<span class="eyebrow">How We Work</span>
+<h1>Same backlog. Five stages. One way through.</h1>
+<p>Every RG Tech Solutions engagement follows the same path — from a ticket queue nobody trusts to a service that catches problems before your team hears about them. Here's what that looks like, stage by stage.</p>
+</div>
+</section>
+
+<section class="section-alt">
+<div class="container">
+<div class="section-head">
+<span class="eyebrow orange">Sound Familiar?</span>
+<h2>You didn't fail to start with AI. You stalled after the pilot.</h2>
+<p>Most small IT teams have already tried an AI copilot or two. Almost none have gone further than a test group. That's not a reason to wait — it's exactly the gap this journey is built to close.</p>
+</div>
+<div class="pilot-bar">
+<span style="width:67.5%;background:#ef4444;"></span>
+<span style="width:17.1%;background:var(--color-amber);"></span>
+<span style="width:15.4%;background:var(--color-teal);"></span>
+</div>
+<div class="pilot-legend">
+<span><i class="dot" style="background:#ef4444;"></i>67.5% still piloting</span>
+<span><i class="dot" style="background:var(--color-amber);"></i>17.1% scaling</span>
+<span><i class="dot" style="background:var(--color-teal);"></i>15.4% org-wide</span>
+</div>
+<p class="source-note">Source: Freshworks Customer Service Benchmark Report 2026</p>
+</div>
+</section>
+
+<section>
+<div class="container">
+<div class="section-head">
+<span class="eyebrow blue">The Journey</span>
+<h2>Five stages, one continuous path</h2>
+<p>Not five separate services — one engagement that moves your team from a queue nobody trusts to a service that improves itself.</p>
+</div>
+
+<div class="stage-list">
+
+<div class="stage-row">
+<div class="stage-marker">
+<div class="icon-tile icon-orange">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16l-6 8v6l-4 2v-8L4 4z"/></svg>
+</div>
+<span class="step-num">1</span>
+</div>
+<div>
+<h3 class="stage-name">Triage</h3>
+<div class="stage-shift"><span class="before">Everything's "Moderate" or "Low"</span><span class="arrow">→</span><span class="after">Every ticket scored the same way, every time</span></div>
+<p class="stage-narrative">It starts with a queue nobody trusts. Security first, then real business impact, then SLA — not whoever's shouting loudest. That's the whole framework, run consistently against every ticket.</p>
+</div>
+<div class="stat-box">
+<div class="num">159</div>
+<div class="label">tickets mis-prioritised as low-urgency in our own proof-of-concept run — including a broken phishing-report tool and a lost company device</div>
+<div class="src">Source: RG Tech Solutions ticket triage test, 1,133 tickets</div>
+</div>
+</div>
+
+<div class="stage-row">
+<div class="stage-marker">
+<div class="icon-tile icon-amber">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4"/></svg>
+</div>
+<span class="step-num">2</span>
+</div>
+<div>
+<h3 class="stage-name">Resolve</h3>
+<div class="stage-shift"><span class="before">The backlog just sits there, re-sorted</span><span class="arrow">→</span><span class="after">It actually gets cleared</span></div>
+<p class="stage-narrative">Once priority is honest, the easy wins clear fast — and what's genuinely hard gets a person's full attention instead of a share of everyone's. That split matters more every year: the simple stuff increasingly resolves itself, so what's left needs real judgement.</p>
+</div>
+<div class="stat-box">
+<div class="num">18% slower</div>
+<div class="label">industry-wide resolution times last year, even as first response got faster — AI is absorbing the easy tickets, leaving harder ones for people</div>
+<div class="src">Source: Freshworks Customer Service Benchmark Report 2026</div>
+</div>
+</div>
+
+<div class="stage-row">
+<div class="stage-marker">
+<div class="icon-tile icon-teal">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5C4 4.7 4.7 4 5.5 4H12v16H5.5c-.8 0-1.5-.7-1.5-1.5v-13z"/><path d="M20 5.5c0-.8-.7-1.5-1.5-1.5H12v16h6.5c.8 0 1.5-.7 1.5-1.5v-13z"/></svg>
+</div>
+<span class="step-num">3</span>
+</div>
+<div>
+<h3 class="stage-name">Knowledge</h3>
+<div class="stage-shift"><span class="before">Every fix starts from scratch</span><span class="arrow">→</span><span class="after">Nobody solves the same problem twice</span></div>
+<p class="stage-narrative">Every fix becomes an article — scattered documentation consolidated, common issues written up in your own voice — so your team stops re-solving the same problem and your people can solve the easy ones themselves.</p>
+</div>
+<div class="stat-box">
+<div class="num">54.9%</div>
+<div class="label">of what an AI copilot actually does for agents is surface the right knowledge article — the single biggest use case, ahead of drafting or tone</div>
+<div class="src">Source: Freshworks Customer Service Benchmark Report 2026</div>
+</div>
+</div>
+
+<div class="stage-row">
+<div class="stage-marker">
+<div class="icon-tile icon-blue">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 00.34 1.87l.06.06a2 2 0 11-2.83 2.83l-.06-.06a1.7 1.7 0 00-1.87-.34 1.7 1.7 0 00-1 1.55V21a2 2 0 11-4 0v-.09A1.7 1.7 0 009 19.36a1.7 1.7 0 00-1.87.34l-.06.06a2 2 0 11-2.83-2.83l.06-.06a1.7 1.7 0 00.34-1.87A1.7 1.7 0 003.09 13H3a2 2 0 110-4h.09A1.7 1.7 0 004.64 9a1.7 1.7 0 00-.34-1.87l-.06-.06a2 2 0 112.83-2.83l.06.06A1.7 1.7 0 009 4.64a1.7 1.7 0 001-1.55V3a2 2 0 114 0v.09a1.7 1.7 0 001 1.55 1.7 1.7 0 001.87-.34l.06-.06a2 2 0 112.83 2.83l-.06.06A1.7 1.7 0 0019.36 9a1.7 1.7 0 001.55 1H21a2 2 0 110 4h-.09a1.7 1.7 0 00-1.51 2z"/></svg>
+</div>
+<span class="step-num">4</span>
+</div>
+<div>
+<h3 class="stage-name">Automate</h3>
+<div class="stage-shift"><span class="before">Every request needs a person</span><span class="arrow">→</span><span class="after">Most of them stop reaching one</span></div>
+<p class="stage-narrative">The requests that don't need a person anymore, stop reaching one — password resets, status checks, routine approvals. We scope what should be owned end-to-end, not just bolted onto the existing process, and check the automations are actually feasible before promising them.</p>
+</div>
+<div class="stat-box">
+<div class="num">83.1%</div>
+<div class="label">average ticket deflection rate reported once AI agents are properly scoped to a workflow, not just layered on top of one</div>
+<div class="src">Source: Freshworks Customer Service Benchmark Report 2026</div>
+</div>
+</div>
+
+<div class="stage-row">
+<div class="stage-marker">
+<div class="icon-tile icon-pink">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg>
+</div>
+<span class="step-num">5</span>
+</div>
+<div>
+<h3 class="stage-name">Improve</h3>
+<div class="stage-shift"><span class="before">A dashboard that says everything's fine</span><span class="arrow">→</span><span class="after">Customers who'll tell you when it isn't</span></div>
+<p class="stage-narrative">You stop guessing whether it's working. Experience surveys tell you why people scored things the way they did, not just the score — so the next thing to fix gets found before anyone has to complain about it.</p>
+</div>
+<div class="stat-box">
+<div class="num">52.7%</div>
+<div class="label">of organisations say customer service now decides who a customer chooses over the competition — a growth lever, not a cost centre</div>
+<div class="src">Source: Freshworks Customer Service Benchmark Report 2026</div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<section class="section-alt">
+<div class="container">
+<div class="cta-banner">
+<img src="assets/logo-hero.png" alt="" class="cta-logo" />
+<h2>Every journey starts the same way.</h2>
+<p>Book a free consultation and we'll show you where your team sits on this path today — and what stage comes next.</p>
+<a href="contact.html" class="btn btn-primary">Book a Free Consultation</a>
+</div>
+</div>
+</section>
+</main>
+
+<footer class="site-footer">
+<div class="container">
+<div class="footer-grid">
+<div class="footer-brand">
+<a href="index.html" class="nav-brand">
+<img src="assets/logo-icon.png" alt="RG Tech Solutions" class="mark" />
+RG Tech Solutions
+</a>
+<p>Automation, IT service management, and experience improvements for small IT teams — delivered remotely, worldwide.</p>
+</div>
+<div class="footer-col">
+<h4>Company</h4>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="journey.html">Journey</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>Services</h4>
+<ul>
+<li><a href="services.html">Automation &amp; Workflow</a></li>
+<li><a href="services.html">Experience (CX/EX)</a></li>
+<li><a href="services.html">IT Service Management</a></li>
+<li><a href="services.html">Cybersecurity</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>Contact</h4>
+<ul>
+<li><a href="mailto:info@rgtechsolutions.co.uk">info@rgtechsolutions.co.uk</a></li>
+<li><a href="tel:+447775886405">+44 (0) 7775 886405</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<span>© <span data-year></span> RG Tech Solutions. All rights reserved.</span>
+<div class="footer-socials">
+<a href="https://www.linkedin.com/in/richarddgash" aria-label="LinkedIn" target="_blank" rel="noopener">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="2" width="20" height="20" rx="4"/><circle cx="7.2" cy="7.5" r="1" fill="currentColor" stroke="none"/><path d="M6.2 10v7.5M11 10v7.5M11 13c0-1.5 1-2.5 2.5-2.5S16 11.5 16 13v4.5"/></svg>
+</a>
+<a href="#" aria-label="X / Twitter">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4l16 16M20 4L4 20"/></svg>
+</a>
+</div>
+</div>
+</div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
